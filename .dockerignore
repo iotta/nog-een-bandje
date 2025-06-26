@@ -1,0 +1,10 @@
+# Ignore the git repository history
+.git
+.gitignore
+
+# Ignore the local build artifacts directory.
+# This is important because we want the container to do a clean build.
+target/
+
+# Ignore the Dockerfile itself
+Dockerfile
