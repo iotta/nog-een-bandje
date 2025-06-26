@@ -111,7 +111,7 @@ async fn main() {
         .with_state(Arc::clone(&APP_STATE));
 
     // Define the address and port to run the server on.
-    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
+    let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
     println!("->> LISTENING on http://{}\n", addr);
     println!("->> UI available at:           http://{}", addr);
     println!(
